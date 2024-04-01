@@ -1,0 +1,66 @@
+{"score": 1.0, "label": "add_entry", "predict": "add_entry", "label_list": [100, 100], "predict_list": [100, 100]}
+{"score": 0.9975, "label": "attack_get_opt_int", "predict": "get_opt_int", "label_list": [99, 100, 100, 100], "predict_list": [100, 100, 100]}
+{"score": 0.9975, "label": "attack_get_opt_ip", "predict": "attack_get_ip_address", "label_list": [100, 100, 99, 100], "predict_list": [100, 100, 100, 94]}
+{"score": 0.9967, "label": "attack_kill_all", "predict": "kill_all_enemies", "label_list": [99, 100, 100], "predict_list": [100, 100, 73, 51, 0]}
+{"score": 0.995, "label": "rand_init", "predict": "init_random", "label_list": [99, 100], "predict_list": [100, 99]}
+{"score": 0.9901, "label": "util_strcmp", "predict": "u_strcmp", "label_list": [97, 100, 100], "predict_list": [98, 100, 100]}
+{"score": 0.9873, "label": "rand_str", "predict": "random_bytes", "label_list": [99, 49], "predict_list": [99, 64]}
+{"score": 0.985, "label": "attack_init", "predict": "add_udp_attacks", "label_list": [98, 99], "predict_list": [99, 76, 0, 65, 71]}
+{"score": 0.9769, "label": "util_strcpy", "predict": "u_strncpy", "label_list": [95, 100, 98], "predict_list": [99, 100, 96, 97]}
+{"score": 0.9766, "label": "attack_udp_dns", "predict": "create_dns_request", "label_list": [99, 98, 91, 100, 100], "predict_list": [99, 100, 100, 86]}
+{"score": 0.9551, "label": "util_zero", "predict": "memclear", "label_list": [94, 97], "predict_list": [94, 97]}
+{"score": 0.9483, "label": "util_memcpy", "predict": "strlcpy", "label_list": [87, 97, 100], "predict_list": [97, 96, 100]}
+{"score": 0.9319, "label": "rand_next", "predict": "random_u32", "label_list": [99, 87], "predict_list": [99, 88, 0, 0]}
+{"score": 0.9179, "label": "util_local_addr", "predict": "get_local_address", "label_list": [74, 100, 99], "predict_list": [99, 100, 98]}
+{"score": 0.9039, "label": "checksum_tcpudp", "predict": "calc_checksum", "label_list": [100, 100, 95, 58, 92], "predict_list": [97, 100, 100]}
+{"score": 0.901, "label": "util_isdigit", "predict": "is_hex_digit", "label_list": [66, 100, 100], "predict_list": [100, 98, 100]}
+{"score": 0.8825, "label": "attack_tcp_syn", "predict": "attack_get_tcp_relays", "label_list": [100, 100, 58], "predict_list": [100, 64, 100, 58, 0]}
+{"score": 0.8787, "label": "util_isalpha", "predict": "is_alnum", "label_list": [58, 100, 99], "predict_list": [100, 99, 3]}
+{"score": 0.8668, "label": "util_memsearch", "predict": "strncmp_ascii", "label_list": [79, 97, 83], "predict_list": [96, 83, 39, 36, 0]}
+{"score": 0.8554, "label": "attack_udp_vse", "predict": "create_ipv4_icmp_router_solicit", "label_list": [89, 99, 87, 100, 36], "predict_list": [89, 99, 100, 87, 96, 88, 71, 56, 88, 60]}
+{"score": 0.8511, "label": "free_opts", "predict": "free_lxc_cgroup_settings", "label_list": [100, 67], "predict_list": [100, 0, 21, 0, 0, 67]}
+{"score": 0.844, "label": "ensure_single_instance", "predict": "single_instance_setup", "label_list": [37, 100, 100], "predict_list": [100, 100, 57]}
+{"score": 0.8377, "label": "util_isspace", "predict": "is_whitespace", "label_list": [45, 95, 100], "predict_list": [95, 0, 74, 100]}
+{"score": 0.8374, "label": "util_fdgets", "predict": "read_line", "label_list": [61, 96, 90], "predict_list": [90, 96]}
+{"score": 0.8287, "label": "attack_udp_generic", "predict": "create_socket_address", "label_list": [96, 98, 93, 0], "predict_list": [96, 98, 95]}
+{"score": 0.8165, "label": "attack_tcp_ack", "predict": "attack_get_tcp_packet", "label_list": [100, 100, 0], "predict_list": [100, 76, 100, 0, 0]}
+{"score": 0.8156, "label": "util_itoa", "predict": "lj_str_num2str", "label_list": [77, 77, 90], "predict_list": [59, 77, 72, 77, 38, 90]}
+{"score": 0.8133, "label": "attack_gre_ip", "predict": "create_icmp_relay_socket", "label_list": [99, 42, 91], "predict_list": [99, 91, 0, 74, 0, 69]}
+{"score": 0.8092, "label": "attack_get_opt_str", "predict": "find_color_name", "label_list": [0, 99, 88, 93], "predict_list": [99, 87, 61]}
+{"score": 0.799, "label": "util_isupper", "predict": "char_surrogate_p", "label_list": [18, 99, 95], "predict_list": [99, 99, 71, 0, 0]}
+{"score": 0.7922, "label": "checksum_generic", "predict": "crc16", "label_list": [99, 95, 0], "predict_list": [99, 95, 95, 83]}
+{"score": 0.7884, "label": "resolve_cnc_addr", "predict": "table_remove_ip", "label_list": [97, 79, 0, 96], "predict_list": [97, 83, 95]}
+{"score": 0.7849, "label": "resolv_lookup", "predict": "connect_to_server", "label_list": [74, 93, 66], "predict_list": [66, 56, 74]}
+{"score": 0.7822, "label": "memory_scan_match", "predict": "mem_exists", "label_list": [96, 64, 71], "predict_list": [96, 71]}
+{"score": 0.7609, "label": "util_strlen", "predict": "count_non_zero_bits", "label_list": [69, 99, 53], "predict_list": [99, 69, 30, 19]}
+{"score": 0.7551, "label": "attack_tcp_stomp", "predict": "attack_get_tcp_relays", "label_list": [100, 100, 53, 0], "predict_list": [100, 82, 100, 0, 0]}
+{"score": 0.7459, "label": "resolv_domain_to_hostname", "predict": "u_strlcpy", "label_list": [43, 81, 98, 91, 39], "predict_list": [97, 98, 78, 13]}
+{"score": 0.7279, "label": "get_dns_resolver", "predict": "random_ip", "label_list": [99, 93, 0, 83, 34], "predict_list": [99, 93]}
+{"score": 0.7148, "label": "killer_kill", "predict": "kill_process", "label_list": [73, 0, 100], "predict_list": [100, 82]}
+{"score": 0.71, "label": "table_init", "predict": "init_x86_32", "label_list": [9, 100], "predict_list": [100, 9, 0, 0, 0, 0]}
+{"score": 0.7071, "label": "attack_parse", "predict": "parse_icmpv6_router_info", "label_list": [0, 100], "predict_list": [100, 0, 0, 0, 0, 41, 0]}
+{"score": 0.7026, "label": "table_unlock_val", "predict": "toggle_offon", "label_list": [88, 89, 49, 41], "predict_list": [83, 88, 0]}
+{"score": 0.7025, "label": "resolv_entries_free", "predict": "free_lxc_cgroup", "label_list": [51, 81, 24, 100], "predict_list": [100, 64, 23, 11, 0]}
+{"score": 0.6895, "label": "util_strncmp", "predict": "has_prefix", "label_list": [96, 99, 0, 0], "predict_list": [99, 90]}
+{"score": 0.6859, "label": "mem_exists", "predict": "streq", "label_list": [97, 0], "predict_list": [97, 89]}
+{"score": 0.6827, "label": "killer_kill_by_port", "predict": "get_tcp_ports", "label_list": [85, 0, 0, 84, 95], "predict_list": [4, 92, 95]}
+{"score": 0.652, "label": "util_atoi", "predict": "strtonum", "label_list": [33, 64, 87], "predict_list": [64, 17, 87]}
+{"score": 0.6484, "label": "util_stristr", "predict": "utf8_find_char", "label_list": [37, 99, 38], "predict_list": [99, 93, 99, 96]}
+{"score": 0.6435, "label": "attack_udp_plain", "predict": "bind_ports", "label_list": [64, 87, 70, 0], "predict_list": [64, 87]}
+{"score": 0.6325, "label": "unlock_tbl_if_nodebug", "predict": "table_lock_value", "label_list": [97, 100, 54, 41, 0, 0], "predict_list": [66, 100, 69]}
+{"score": 0.63, "label": "attack_app_http", "predict": "display_player_info", "label_list": [98, 0, 48], "predict_list": [98, 0, 0]}
+{"score": 0.6279, "label": "table_lock_val", "predict": "toggle_offon", "label_list": [88, 49, 41], "predict_list": [82, 88, 0]}
+{"score": 0.6213, "label": "killer_init", "predict": "kill_all_processes", "label_list": [85, 0, 66], "predict_list": [66, 5, 52, 0]}
+{"score": 0.6081, "label": "attack_start", "predict": "pg_fork_exec", "label_list": [0, 86], "predict_list": [61, 86, 0, 58]}
+{"score": 0.6053, "label": "resolv_skip_name", "predict": "utf8_count", "label_list": [0, 69, 97, 22], "predict_list": [69, 22, 94]}
+{"score": 0.5869, "label": "establish_connection", "predict": "server_socket", "label_list": [0, 83], "predict_list": [31, 83]}
+{"score": 0.5774, "label": "attack_gre_eth", "predict": "attack_get_tcp_relays", "label_list": [100, 0, 0], "predict_list": [100, 0, 0, 0, 0]}
+{"score": 0.5774, "label": "rand_alphastr", "predict": "rand_string", "label_list": [100, 0, 0], "predict_list": [100, 26]}
+{"score": 0.5774, "label": "add_attack", "predict": "add_method", "label_list": [100, 0, 0], "predict_list": [100, 0]}
+{"score": 0.5545, "label": "toggle_obf", "predict": "mbedtls_aesni_set_key", "label_list": [0, 3, 96], "predict_list": [72, 96, 0, 0, 0, 0, 6, 39]}
+{"score": 0.4864, "label": "table_retrieve_val", "predict": "get_ip_address", "label_list": [58, 0, 0, 0, 92], "predict_list": [46, 41, 58]}
+{"score": 0.4566, "label": "teardown_connection", "predict": "server_close", "label_list": [40, 0, 4, 82], "predict_list": [0, 56]}
+{"score": 0.345, "label": "anti_gdb_entry", "predict": "resolve_netcdf_addr", "label_list": [0, 69, 0, 0], "predict_list": [53, 67, 0, 56, 31]}
+{"score": 0.1328, "label": "has_exe_access", "predict": "kill_real", "label_list": [23, 0, 0], "predict_list": [23, 0]}
+{"score": 0.0, "label": "attack_app_proxy", "predict": "ck_pr_fas_32", "label_list": [0, 0, 0], "predict_list": [0, 0, 0, 0, 0, 0]}
+{"score": 0.0, "label": "attack_app_cfnull", "predict": "song_add_instrument", "label_list": [0, 0, 0, 0], "predict_list": [0, 0, 0, 0]}
