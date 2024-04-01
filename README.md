@@ -19,6 +19,7 @@ llasm, is a novel framework that fuses encoder-only and decoder-only LLMs, which
 ## News
 
 - [2024/3/31] The base model of llasm-encoder is now available on Hugging Face Model Hub (https://huggingface.co/sandspeare/llasm-encoder).
+- [2024/3/31] The base model of llasm-decoder is now available on Hugging Face Model Hub (https://huggingface.co/sandspeare/llasm-decoder).
 
 ## Install
 
